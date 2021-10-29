@@ -86,6 +86,7 @@ To establish the model, we need to determine which R package it comes from (the 
 (These functions come from the *tidymodels* package that we loaded in the setup chunk.)
 
 ```{r}
+# lin_reg <- linear_reg()
 lin_reg <- linear_reg() %>%
   set_engine("lm") %>%
   set_mode("regression")

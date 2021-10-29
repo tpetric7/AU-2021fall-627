@@ -1,4 +1,4 @@
-source("renv/activate.R")
+# source("renv/activate.R")
 source("pdfize.R")
 options(
   distillcourse.number_pad = 2
