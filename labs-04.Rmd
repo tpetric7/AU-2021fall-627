@@ -64,7 +64,7 @@ knn_spec <- nearest_neighbor(neighbors = 5) %>%
   set_engine("kknn")
 ```
 
-Notice how `nearest_neighbor()` reqruires that we set a number of neighbors.
+Notice how `nearest_neighbor()` requires that we set a number of neighbors.
 
 # YOUR TURN
 

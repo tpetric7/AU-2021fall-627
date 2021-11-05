@@ -67,7 +67,7 @@ rec1_prepped <- rec1 %>%
 rec1_prepped
 ```
 
-We can now apply this recipe to new data. Using the `bake()` function os what we use here. This function works a lot like `predict()` in the sense that it takes int a trained/fitted object and is applied to new data.
+We can now apply this recipe to new data. Using the `bake()` function os what we use here. This function works a lot like `predict()` in the sense that it takes in a trained/fitted object and is applied to new data.
 
 ```{r}
 rec1_prepped %>%
